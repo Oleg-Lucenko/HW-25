@@ -1,7 +1,7 @@
 
 const weatherInCity = {
 
-    url: 'http://api.openweathermap.org/data/2.5/weather?q=LVIV&units=metric&APPID=5d066958a60d315387d9492393935c19',
+    url: 'https://api.openweathermap.org/data/2.5/weather?q=LVIV&units=metric&APPID=5d066958a60d315387d9492393935c19',
 
     cityInput: document.querySelector('.city'),
     submitInput: document.querySelector('.submit'),
@@ -11,7 +11,7 @@ const weatherInCity = {
     submitListener() {
         document.addEventListener('submit', (e) => {
             e.preventDefault();
-            this.url = `http://api.openweathermap.org/data/2.5/weather?q=${this.cityInput.value}&units=metric&APPID=5d066958a60d315387d9492393935c19`;
+            this.url = `https://api.openweathermap.org/data/2.5/weather?q=${this.cityInput.value}&units=metric&APPID=5d066958a60d315387d9492393935c19`;
             this.weather();
         });
     },
