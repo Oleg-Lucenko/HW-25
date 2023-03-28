@@ -1,0 +1,9 @@
+input:nth-child(1), .weather-container {
+    margin: 20px 0 0 30px;
+}
+
+img {
+    position: absolute;
+    left: 290px;
+    top: 60px;
+}
