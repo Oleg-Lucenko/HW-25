@@ -30,7 +30,7 @@ const weatherInCity = {
             <p>Humidity: ${data.main.humidity}</p>
             <p>Wind speed: ${data.wind.speed}</p>
             <p>Deg: ${data.wind.deg}</p>
-            <img src="http://openweathermap.org/img/w/${data.weather[0].icon}.png">
+            <img src="https://openweathermap.org/img/w/${data.weather[0].icon}.png">
             `;
             } else {
                 if (this.cityInput.value.trim() === '') {
